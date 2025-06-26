@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+    <style>
+        
+h1{
+     font-size: xx-large;
+    font-style: italic;
+    color: blue;
+    background-color: aqua;
+    padding: 10px; 
+}
+.my-class
+{
+    color: brown;
+    text-align: center;
+    background-color: greenyellow;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#my-id
+{
+    color: crimson;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: darkkhaki;
+    text-decoration: underline;
+    text-align:center ;
+    border: 5px solid purple;
+}
+
+.btn-class
+{
+    background-color:aqua;
+    color: darkred;
+    font-size: xx-large;
+    padding: 10px;
+    border: 4px solid blue;
+    border-radius: 2px;
+    transition: 300ms;
+}
+button{
+    background-color: blue  ;
+}
+#btn-id
+{
+    background-color: crimson;
+    color: antiquewhite;
+}
+.btn-class:hover{
+    transform: scale(1.1);
+}
+.btn-class:active
+{
+    background-color: red;
+}
+
+    </style>
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<p style=" padding: 20px; color: darkgreen; font-style: italic; background-color: darksalmon; font-size: xx-large; border: 2cm; ">Inline CSS is used to style individual element at once.</p>
+ 
+<h1>Internal CSS is used to select entire page at once.</h1>
+
+<h1 class="my-class">Name Selector is used to select elements by their tag names.</h1>
+
+<h2 class="my-class">Class selector is used to select elements by their class name.</h2>
+
+
+<h3 id="my-id">ID Selector is used to select elements by their id.</h3>
+
+
+<button style="background-color: rebeccapurple;" class="btn-class" id="btn-id">Submit</button>
+
+<button class="btn btn-class">RESET</button>
+
+</body>
+</html>
