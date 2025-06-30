@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+
+<link href="https://fonts.googleapis.com/css?family=Libertinus+Math:regular" rel="stylesheet" />
+
+<style>
+
+* {
+    font-family: Libertius Math;
+}
+
+ .card {
+    /* border: 2px solid black; */
+    width: 30%;
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 8px 0 #312b27;
+    background-color: wheat;
+
+} 
+
+body{
+
+display: flex;
+padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #bd552c ,#b97b9a, #b9636a , #a84068);
+
+}
+
+.form-title{
+
+text-align: center;
+margin: 50px 0;
+
+}
+
+.text-input{
+
+display: block;
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+background-color: white;
+color: whitesmoke;
+border: transparent;
+margin-top: 20px;
+
+}
+
+.submit-btn{
+display: block;
+width: 100%;
+padding: 10px;
+border: transparent;
+background-color: maroon;
+margin-top: 30px;
+color: wheat; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+}
+
+.link{
+    color: darkblue;
+    text-decoration: underline;
+    display: block;
+}
+
+.login-link{
+    text-align: center;
+    margin-top: 30px;
+    font-size: large;
+}
+.checkbox-choice {
+
+    width: 30px;
+    height: 20px;
+    color: rebeccapurple;
+
+}
+.checkbox-label{
+    color: red;
+    font-size: 20px;
+font-weight: bold;
+}
+.box{
+    font-size: large;
+    font-weight: 20px;
+}
+</style>
+
+</head>
+<body>
+    
+<div class="card">
+<h2 class="form-title"> Sign-up Form</h2>
+
+<form>
+
+    <label for="input" class="box" >Username</label><br>
+<input type="name" class="text-input" required><br>
+
+<label for="input" class="box">Email</label><br>
+<input type="email" class="text-input"required><br>
+
+<label for="input" class="box">Password</label><br>
+<input type="password" class="text-input" required><br>
+
+<input type="checkbox" name="choice" id="agree" class="checkbox-choice">
+<label for="agree" class="checkbox-label"><b>I Agree to Terms & Conditions</b></label>
+
+<br><br>
+<button class="submit-btn"> Sign-up</button><br><br>
+<a href="" class="link login-link">Already have an account?Log in</a><br>
+</form>
+
+</div>
+
+</body>
+</html>
