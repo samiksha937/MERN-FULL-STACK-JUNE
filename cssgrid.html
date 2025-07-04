@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+</head>
+<body>
+
+<style>
+
+   .child{
+        background-color: aqua;
+        color: blue;
+        padding: 20px;
+        border: 2px solid blue;
+    }
+
+    .parent{
+        display: grid; 
+        /* flex works on alignment,this works on rows & columns. */
+        /* grid-template-columns: 300px 200px 150px 100px; */
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 40px;
+     row-gap: 20px;
+    }
+
+</style>
+
+<div class="parent">
+
+<div class="child">
+    <h3>child 1</h3>
+</div>
+
+<div class="child">
+    <h3>child 2</h3>
+</div>
+
+<div class="child">
+    <h3>child 3</h3>
+</div>
+
+    <div class="child">
+    <h3>child 4</h3>
+</div>
+
+<div class="child">
+    <h3>child 5</h3>
+</div>
+
+<div class="child">
+    <h3>child 6</h3>
+    </div>
+
+</div>
+
+</body>
+</html>
