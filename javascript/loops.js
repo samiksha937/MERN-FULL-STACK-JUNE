@@ -46,11 +46,11 @@ let rev=0;
 
 while(m>0)
 {
-    console.log(m,rev);
-    let d=m%10;
-    rev=rev*10+d;
-    m=parseInt(m/10);
+    console.log(n,rev);
+    let rem=n%10;
+    rev=rev*10+rem;
+    n=parseInt(n/10);
 }
-console.log(m,rev);
+console.log(n,rev);
 
 

@@ -12,17 +12,16 @@ console.log(sports.indexOf('cricket'));
 console.log(sports.at(-3));
 
 console.log(sports);
-sports[3]='kabaddi';
+sports[3]='kabaddi';//change the value
 console.log(sports);
 
 sports.push('hockey');//adds ot the end of the array. 
 console.log(sports);
 console.log();
+
 console.log(sports.length);
 console.log(sports.push('javelin'));
 console.log(sports);
-
-
 
 sports.pop(sports);//(pop deletes the element from the last).
 console.log(sports);
@@ -55,7 +54,17 @@ console.log();
 
 //splicing
 console.log(sports);
-sports.splice(2,1) //first is input another is how many you want to remove.
-console.log(sports);
+// sports.splice(2,1) //first is input another is how many you want to remove.
+// console.log(sports);
+
+// sports.splice(2,0 ,'shooting','swimming')
+// console.log(sports);
+
+ 
+
+
+
+
+
 
 

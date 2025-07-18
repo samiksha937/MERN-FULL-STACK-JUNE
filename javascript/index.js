@@ -11,3 +11,13 @@ console.log(msg);
 console.log(typeof msg);
 
 // from github
+console.log(2 ** 5);
+
+console.log(1 + '1');
+console.log(1 + 1 + '1');
+console.log(1 + 'a');
+console.log(2 + undefined + 'a');
+
+console.log( 1 == 1 );
+console.log( 1 == '1' );
+console.log( 1 === '1' );
